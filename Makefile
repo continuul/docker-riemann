@@ -16,3 +16,8 @@ image: riemann-$(RIEMANN_VERSION).tar.bz2
 .PHONY: latest
 latest: image
 	docker tag continuul/riemann:${RIEMANN_VERSION} continuul/riemann:latest
+
+.PHONY: push
+push: latest
+	docker push continuul/riemann:${RIEMANN_VERSION}
+	docker push continuul/riemann:latest
