@@ -4,9 +4,6 @@
 
 # Quick reference
 
--	**Where to get help**:  
-	[the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack/), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
-
 -	**Where to file issues**:  
 	[https://github.com/continuul/docker-riemann/issues](https://github.com/continuul/docker-riemann/issues)
 
@@ -14,10 +11,10 @@
 	[Continuul](https://github.com/continuul/)
 
 -	**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  
-	[`amd64`](https://hub.docker.com/r/continuul/docker-riemann/)
+	[`amd64`](https://hub.docker.com/r/continuul/riemann/)
 
 -	**Published image artifact details**:  
-	[repo-info repo's `repos/consul/` directory](https://github.com/docker-library/repo-info/blob/master/repos/consul) ([history](https://github.com/docker-library/repo-info/commits/master/repos/consul))  
+	[repo-info repo's `repos/consul/` directory](https://github.com/docker-library/repo-info/blob/master/repos/consul) ([history](https://github.com/continuul/docker-riemann/commits/master))  
 	(image metadata, transfer size, etc)
 
 -	**Source of this description**:  
